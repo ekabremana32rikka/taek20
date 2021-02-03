@@ -285,10 +285,10 @@ async function starts() {
 
 			const botNumber = client.user.jid
 			const ownerNumber = ["6285277566353@s.whatsapp.net","628pasangnomoryou@s.whatsapp.net"]
-			const mod = [ownerNumber,"628pasangnomoryou@s.whatsapp.net","628pasangnomoryou@s.whatsapp.net"]
+			const mod = [ownerNumber,"6285277566353@s.whatsapp.net","628pasangnomoryou@s.whatsapp.net"]
 			const adminbotnumber = ["6285277566353@s.whatsapp.net","628pasangnomoryou@s.whatsapp.net"]
-			const frendsowner = ["628pasangnomoryou@s.whatsapp.net","6283191156893@s.whatsapp.net"]
-			const premium = ["6283846382999@s.whatsapp.net","6285277566353@s.whatsapp.net","083179682058@s.whatsapp.net","6289512703226@s.whatsapp.net","6283191156893@s.whatsapp.net","6287844366550@s.whatsapp.net"]
+			const frendsowner = ["6285277566353@s.whatsapp.net","083179682058@s.whatsapp.net"]
+			const premium = ["62877566353@s.whatsapp.net","6285277566353@s.whatsapp.net","083179682058@s.whatsapp.net","6289512703226@s.whatsapp.net","6283191156893@s.whatsapp.net","6287844366550@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
@@ -416,10 +416,10 @@ async function starts() {
 					
 					client.sendMessage(from, othermenu(prefix), text, { quoted: mek })
 					break
-					case 'ichigroup':
+					case 'bremabot':
 					if (isBanned) return reply(mess.only.benned)    
 					if (!isUser) return reply(mess.only.userB)
-					client.sendMessage(from, '*VEERBOTZ GROUP*\n\nLink : https://chat.whatsapp.com/Btl9gKSAptOLS0n8U1cgEB*', text, { quoted: mek })
+					client.sendMessage(from, '*Bremana*\n\nLink : https://chat.whatsapp.com/C2mS8MdY9540rATja6UVRo*', text, { quoted: mek })
 					break
 					case 'funmenu':
 					if (isBanned) return reply(mess.only.benned)    
@@ -1278,7 +1278,7 @@ async function starts() {
                         hehex += '╠➥ '
                         hehex += response.data.data[i].name.transliteration.id.toLowerCase() + '\n'
                             }
-                        hehex += '╚═〘 *I C H I* 〙'
+                        hehex += '╚═〘 *B R E M A* 〙'
                     reply(from, hehex, text)
                 })
             } catch(err) {
@@ -1406,13 +1406,13 @@ async function starts() {
 					if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 					if (!isOwner) return reply(mess.only.ownerB)    
-					teks = `\`\`\`╭────*「 *TOTAL USER VEERBOTZ👑* 」\n\`\`\``
+					teks = `\`\`\`╭────*「 *TOTAL USER BREMABOT👑* 」\n\`\`\``
 					no = 0
 					for (let hehehe of user) {
 						no += 1
 						teks += `\`\`\`[${no.toString()}]\`\`\` @${hehehe.split('@')[0]}\n`
 					}
-					teks += `│+ Total Pengguna : ${user.length}\n╰──────*「 *VEERBOTZ* 」*────`
+					teks += `│+ Total Pengguna : ${user.length}\n╰──────*「 *BREMABOT* 」*────`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": user}})
 					break
 				case 'ttp':
@@ -1477,7 +1477,7 @@ async function starts() {
 			if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 			
-                    anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/nekonime`).json()
+                    anu = await fetchJson(`https://api.itsmeikyxsec404.xyz/`).json()
                     if (nekonime.result.endsWith('.png')) {
                     var ext = '.png'
                  } else {
@@ -2384,7 +2384,7 @@ if (isBanned) return reply(mess.only.benned)
 				case 'donate':
 				if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
-					client.sendMessage(from, '*pulsa :* _0822-7410-2032_\n*gopay :* _0822-7410-2032_', text, { quoted: mek })
+					client.sendMessage(from, '*pulsa :* _0852-7756-6353_\n*gopay :* _0838-4638-2999_', text, { quoted: mek })
 					break
                 case 'ttp':
                 if (isBanned) return reply(mess.only.benned)    
@@ -2454,7 +2454,7 @@ if (isBanned) return reply(mess.only.benned)
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('628pasangnomoryou@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6285277566353@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Request telah di laporkan ke owner BOT, request  yang dapat membebani owner tidak akan ditanggapi.')
                     break
 				case 'meme': 
