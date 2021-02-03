@@ -1,0 +1,2 @@
+# taek20
+Belajar
